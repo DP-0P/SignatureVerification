@@ -1,4 +1,4 @@
-# import the modules
+# dataset resized
 import os
 from os import listdir
 from PIL import Image
@@ -11,5 +11,8 @@ def imageResize(location,newLocation):
 			img = img.resize((350,350))
 			img.save(f'C:\\Users\\ASUS\\Desktop\\SDP\\modifiedSignatures\\{newLocation}\\'+'resized'+images.capitalize()+'.png')
 
-imageResize('C:\\Users\\ASUS\\Desktop\\SDP\\signatures\\full_forg','modifiedForged')
-imageResize('C:\\Users\\ASUS\\Desktop\\SDP\\signatures\\full_org','modifiedOG')
+# imageResize('C:\\Users\\ASUS\\Desktop\\SDP\\signatures\\full_forg','modifiedForged')
+# imageResize('C:\\Users\\ASUS\\Desktop\\SDP\\signatures\\full_org','modifiedOG')
+
+# dataset split into train validation test
+
